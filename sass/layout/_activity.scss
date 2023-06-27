@@ -1,0 +1,44 @@
+@media screen and (max-width: 1200px) {
+  .activity-section {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .activity-section {
+    padding-bottom: 94px;
+  }
+
+  .activity-title {
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 30px;
+  }
+
+  .activity-list {
+    display: flex;
+    gap: 30px;
+  }
+
+  .activity__item {
+    position: relative;
+  }
+
+  .activity__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    overflow: auto;
+    background: rgba(47, 48, 58, 0.8);
+    font-family: "Roboto";
+    @include font($fs: 14px, $lh: 16px);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-content-color);
+  }
+}

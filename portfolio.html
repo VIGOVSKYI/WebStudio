@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>WebStudio2.0</title>
+
+  <body>
+        <header class="section-header section-header-portfolio">
+      <div class="container container_header">
+        <a class="logo logo_header link" href="./index.html">WebStudio</a>
+        <button type="button" class="mobile-menu-open" data-menu-open>
+          <svg class="mobile-menu-open_icon" width="40" height="40">
+            <use href="./images/sprite.svg#burger-icon"></use>
+          </svg>
+        </button>
+        <nav class="nav-header">
+          <ul class="menu list">
+            <li class="menu__item">
+              <a class="menu__link link" href="./index.html"
+                >Studuo</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link link portfolio_link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link link" href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact list">
+          <li class="contact__item">
+            <a class="contact__link link" href="mailto:nfo@devstudio.com">
+              <svg class="contact__icon" width="16px" height="12px">
+                <use href="./images/sprite.svg#icon-envelope"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contact__item">
+            <a class="contact__link link" href="tel:+380961111111">
+              <svg class="contact__icon" width="16px" height="12px">
+                <use href="./images/sprite.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- /////////////////////mobile-menu//////////////// -->
+      <div class="mobile-menu is-open" data-menu>
+        <div class="container mobile-menu_container">
+          <ul class="mobile-menu-list list">
+            <li class="mobile-menu_link_item">
+              <a href="./index.html" class="mobile-menu_link link">Studio</a>
+            </li>
+            <li class="mobile-menu_link_item">
+              <a href="./portfolio.html" class="mobile-menu_link link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobile-menu_link_item">
+              <a class="mobile-menu_link">Contacts</a>
+            </li>
+          </ul>
+          <button class="mobile-menu_close-button" data-menu-close>
+            <svg class="mobile-menu_close-button_icon" width="40" height="40">
+              <use href="./images/sprite.svg#icon-close-black-18dp-2-1"></use>
+            </svg>
+          </button>
+
+          <ul class="mobile-menu-contact list">
+            <li class="mobile-menu-contact__item">
+              <a
+                class="mobile-menu-contact__link link"
+                href="tel:+380961111111"
+              >
+                +38-096-111-11-11
+              </a>
+            </li>
+            <li class="mobile-menu-contact__item">
+              <a
+                class="mobile-menu-contact__link link"
+                href="mailto:info@devstudio.com"
+              >
+                info@devstudio.com
+              </a>
+            </li>
+          </ul>
+
+          <ul class="mobile-menu-social-list list">
+            <li class="mobile-menu__social-item">
+              <a class="mobile-menu__social-link">Instagram</a>
+            </li>
+            <li class="mobile-menu__social-item">
+              <a class="mobile-menu__social-link">Twitter</a>
+            </li>
+            <li class="mobile-menu__social-item">
+              <a class="mobile-menu__social-link">Facebook</a>
+            </li>
+            <li class="mobile-menu__social-item">
+              <a class="mobile-menu__social-link">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- /////////////////////mobile-menu//////////////// -->
+</header>
+    <main class="main">
+      <section class="nav-portfolio-section container">
+        <nav class="nav-portfolio">
+          <ul class="nav-portfolio-list list">
+            <li class="nav-portfolio-item">
+              <button class="button nav-portfolio__button" type="button">All of them</button>
+            </li>
+            <li class="nav-portfolio-item">
+              <button class="button nav-portfolio__button" type="button">Websites</button>
+            </li>
+            <li class="nav-portfolio-item">
+              <button class="button nav-portfolio__button" type="button">Applications</button>
+            </li>
+            <li class="nav-portfolio-item">
+              <button class="button nav-portfolio__button" type="button">Design</button>
+            </li>
+            <li class="nav-portfolio-item">
+              <button class="button nav-portfolio__button" type="button">Marketing</button>
+            </li>
+          </ul>
+        </nav>
+        <ul class="portfolio-list list">
+          <li class="portfolio-item">
+            <a class="portfolio-item-link">
+              <div class="portfolio-wrapper-img">
+                 <picture>
+        <source srcset="./images/desktop/portfolio-card-set/technokryak-370/technokryak-370.jpg 1x, ./images/desktop/portfolio-card-set/technokryak-370/technokryak-370@2x.jpg 2x" 
+      media="(min-width: 1200px)"/>
+      <source srcset="./images/tablet/portfolio-card-set/technokryak-354/technokryak-354.jpg 1x, ./images/tablet/portfolio-card-set/technokryak-354/technokryak-354@2x.jpg 2x" 
+      media="(min-width: 768px)"/>
+      <source srcset="./images/mobile/portfolio-card-set/technocryak-450/technocryak-450.jpg 1x, ./images/mobile/portfolio-card-set/technocryak-450/technocryak-450@2x.jpg 2x" 
+      media="(max-width: 767px)"/>
+
+      <img src="./images/mobile/portfolio-card-set/technocryak-450/technocryak-450.jpg" alt="Технокряк" width="">
+      </picture>
+                
+                <p class="portfolio-overlay">
+                  Lorem ipsum dolor sit, amet 
+                  consectetur adipisicing elit. 
+                  Odio iste voluptatum aliquid, 
+                  molestias temporibus autem quasi 
+                  corporis eos officia incidunt, 
+                </p>
+              </div>
+              <div class="wraper-data-portfolio">
+                <h2 class="portfolio-title">Tehnocryak</h2>
+                <p class="portfolio-text">Website</p>
+              </div>
+            </a>
+          </li>
+          <li class="portfolio-item">
+            <a class="portfolio-item-link">
+              <div class="portfolio-wrapper-img">
+                 <picture>
+                <source srcset="./images/desktop/portfolio-card-set/seafood-370/seafood-370.jpg 1x, ./images/desktop/portfolio-card-set/seafood-370/seafood-370@2x.jpg 2x" 
+                media="(min-width: 1200px)"/>
+                <source srcset="./images/tablet/portfolio-card-set/seafood-354/seafood-354.jpg 1x, ./images/tablet/portfolio-card-set/seafood-354/seafood-354@2x.jpg 2x" 
+                media="(min-width: 768px)"/>
+                <source srcset="./images/mobile/portfolio-card-set/seafood-450/seafood-450.jpg 1x, ./images/mobile/portfolio-card-set/seafood-450/seafood-450@2x.jpg 2x" 
+                media="(max-width: 767px)"/>
+                <img src="./images/mobile/portfolio-card-set/seafood-450/seafood-450.jpg" alt="Ресторан Seafood" width="">
+            </picture>
+               
+               
+                <p class="portfolio-overlay">
+                  Lorem ipsum dolor sit, amet 
+                  consectetur adipisicing elit. 
+                  Odio iste voluptatum aliquid, 
+                  molestias temporibus autem quasi 
+                  corporis eos officia incidunt, 
+                </p>
+              </div>
+                <div class="wraper-data-portfolio">
+                  <h2 class="portfolio-title">Poster New Orlean vs Golden Star</h2>
+                  <p class="portfolio-text">Design</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+               <a class="portfolio-item-link">
+                <div class="portfolio-wrapper-img">
+            <picture>
+                <source srcset="./images/desktop/portfolio-card-set/seafood-370/seafood-370.jpg 1x, ./images/desktop/portfolio-card-set/seafood-370/seafood-370@2x.jpg 2x" 
+                media="(min-width: 1200px)"/>
+                <source srcset="./images/tablet/portfolio-card-set/seafood-354/seafood-354.jpg 1x, ./images/tablet/portfolio-card-set/seafood-354/seafood-354@2x.jpg 2x" 
+                media="(min-width: 768px)"/>
+                <source srcset="./images/mobile/portfolio-card-set/seafood-450/seafood-450.jpg 1x, ./images/mobile/portfolio-card-set/seafood-450/seafood-450@2x.jpg 2x" 
+                media="(max-width: 767px)"/>
+                <img src="./images/mobile/portfolio-card-set/seafood-450/seafood-450.jpg" alt="Ресторан Seafood" width="">
+            </picture>
+        
+
+                  
+                  <p class="portfolio-overlay">
+                  Lorem ipsum dolor sit, amet 
+                  consectetur adipisicing elit. 
+                  Odio iste voluptatum aliquid, 
+                  molestias temporibus autem quasi 
+                  corporis eos officia incidunt, 
+                </p>
+                </div>
+              <div class="wraper-data-portfolio">
+                <h2 class="portfolio-title">Restaurant Seafood</h2>
+                <p class="portfolio-text">Applications</p>
+              </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+               <a class="portfolio-item-link">
+              <div class="portfolio-wrapper-img">
+      <picture>
+            <source srcset="./images/desktop/portfolio-card-set/limited-edition-370/limited-edition-370.jpg 1x, ./images/desktop/portfolio-card-set/limited-edition-370/limited-edition-370@2x.jpg 2x" 
+            media="(min-width: 1200px)"/>
+            <source srcset="./images/tablet/portfolio-card-set/limited-edition-354/limited-edition-354.jpg 1x, ./images/tablet/portfolio-card-set/limited-edition-354/limited-edition-354@2x.jpg 2x" 
+            media="(min-width: 768px)"/>
+            <source srcset="./images/mobile/portfolio-card-set/limited-edition-450/limited-edition-450.jpg 1x, ./images/mobile/portfolio-card-set/limited-edition-450/limited-edition-450@2x.jpg 2x" 
+            media="(max-width: 767px)"/>
+            <img src="./images/mobile/portfolio-card-set/limited-edition-450/limited-edition-450.jpg" alt="Growing Business" width="">
+        </picture>
+
+              <p class="portfolio-overlay">
+                  Lorem ipsum dolor sit, amet 
+                  consectetur adipisicing elit. 
+                  Odio iste voluptatum aliquid, 
+                  molestias temporibus autem quasi 
+                  corporis eos officia incidunt, 
+                </p>
+              </div>
+              <div class="wraper-data-portfolio">
+                <h2 class="portfolio-title">Growing Business</h2>
+                <p class="portfolio-text">Applications</p>
+              </div>
+              </a>
+            </li>
+  
+            <li class="portfolio-item">
+              <a class="portfolio-item-link">
+                <div class="portfolio-wrapper-img">
+                  <picture>
+            <source src="" srcset="./images/desktop/portfolio-card-set/prime-370/prime-370.jpg 1x, ./images/desktop/portfolio-card-set/prime-370/prime-370@2x.jpg 2x" 
+            media="(min-width: 1200px)"/>
+            <source srcset="./images/tablet/portfolio-card-set/prime-354/prime-354.jpg 1x, ./images/tablet/portfolio-card-set/prime-354/prime-354@2x.jpg 2x" 
+            media="(min-width: 768px)"/>
+            <source srcset="./images/mobile/portfolio-card-set/prime-450/prime-450.jpg 1x, ./images/mobile/portfolio-card-set/prime-450/prime-450@2x.jpg 2x" 
+            media="(max-width: 767px)"/>
+
+            <img src="./images/mobile/portfolio-card-set/prime-450/prime-450.jpg" alt="Проект Prime" width="">
+</picture>
+        
+
+    
+                  <p class="portfolio-overlay">
+                  Lorem ipsum dolor sit, amet 
+                  consectetur adipisicing elit. 
+                  Odio iste voluptatum aliquid, 
+                  molestias temporibus autem quasi 
+                  corporis eos officia incidunt, 
+                </p>
+                </div>
+                <div class="wraper-data-portfolio">
+                  <h2 class="portfolio-title">Project Prime</h2>
+                  <p>Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-item">
+               <a class="portfolio-item-link">
+                 <div class="portfolio-wrapper-img">
+             <picture>
+                <source srcset="./images/desktop/portfolio-card-set/seafood-370/seafood-370.jpg 1x, ./images/desktop/portfolio-card-set/seafood-370/seafood-370@2x.jpg 2x" 
+                media="(min-width: 1200px)"/>
+                <source srcset="./images/tablet/portfolio-card-set/seafood-354/seafood-354.jpg 1x, ./images/tablet/portfolio-card-set/seafood-354/seafood-354@2x.jpg 2x" 
+                media="(min-width: 768px)"/>
+                <source srcset="./images/mobile/portfolio-card-set/seafood-450/seafood-450.jpg 1x, ./images/mobile/portfolio-card-set/seafood-450/seafood-450@2x.jpg 2x" 
+                media="(max-width: 767px)"/>
+                <img src="./images/mobile/portfolio-card-set/seafood-450/seafood-450.jpg" alt="Ресторан Seafood" width="">
+            </picture>
+
+                   
+                  <p class="portfolio-overlay">
+                  Lorem ipsum dolor sit, amet 
+                  consectetur adipisicing elit. 
+                  Odio iste voluptatum aliquid, 
+                  molestias temporibus autem quasi 
+                  corporis eos officia incidunt, 
+                </p>
+                  </div>
+                 <div class="wraper-data-portfolio">
+                   <h2 class="portfolio-title">Project Boxes</h2>
+                   <p class="portfolio-text">Applications</p>
+                 </div>
+                </a>
+             </li>
+             
+             <li class="portfolio-item">
+              <a class="portfolio-item-link">
+                <div class="portfolio-wrapper-img">
+                  <picture>
+            <source srcset="./images/desktop/portfolio-card-set/inspiration-370/inspiration-370.jpg 1x, ./images/desktop/portfolio-card-set/inspiration-370/inspiration-370@2x.jpg 2x" 
+            media="(min-width: 1200px)"/>
+            <source srcset="./images/tablet/portfolio-card-set/inspiration-354/inspiration-354.jpg 1x, ./images/tablet/portfolio-card-set/inspiration-354/inspiration-354@2x.jpg 2x" 
+            media="(min-width: 768px)"/>
+            <source srcset="./images/mobile/portfolio-card-set/inspiration-450/inspiration-450.jpg 1x, ./images/mobile/portfolio-card-set/inspiration-450/inspiration-450@2x.jpg 2x" 
+            media="(max-width: 767px)"/>
+
+        <img src="./images/mobile/portfolio-card-set/inspiration-450/inspiration-450.jpg" alt="Inspiration has no Borders" width="">
+</picture>
+
+                 
+                   <p class="portfolio-overlay">
+                   Lorem ipsum dolor sit, amet 
+                   consectetur adipisicing elit. 
+                   Odio iste voluptatum aliquid, 
+                   molestias temporibus autem quasi 
+                   corporis eos officia incidunt, 
+                 </p>
+                 </div>
+                <div class="wraper-data-portfolio">
+                  <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                  <p class="portfolio-text">Website</p>
+                </div>
+              </a>
+             </li>
+    
+             <li class="portfolio-item">
+              <a class="portfolio-item-link">
+                <div class="portfolio-wrapper-img">
+        <picture>
+            <source srcset="./images/desktop/portfolio-card-set/limited-edition-370/limited-edition-370.jpg 1x, ./images/desktop/portfolio-card-set/limited-edition-370/limited-edition-370@2x.jpg 2x" 
+            media="(min-width: 1200px)"/>
+            <source srcset="./images/tablet/portfolio-card-set/limited-edition-354/limited-edition-354.jpg 1x, ./images/tablet/portfolio-card-set/limited-edition-354/limited-edition-354@2x.jpg 2x" 
+            media="(min-width: 768px)"/>
+            <source srcset="./images/mobile/portfolio-card-set/limited-edition-450/limited-edition-450.jpg 1x, ./images/mobile/portfolio-card-set/limited-edition-450/limited-edition-450@2x.jpg 2x" 
+            media="(max-width: 767px)"/>
+            <img src="./images/mobile/portfolio-card-set/limited-edition-450/limited-edition-450.jpg" alt="Growing Business" width="">
+        </picture>
+
+                  
+                   <p class="portfolio-overlay">
+                    Lorem ipsum dolor sit, amet 
+                    consectetur adipisicing elit. 
+                    Odio iste voluptatum aliquid, 
+                    molestias temporibus autem quasi 
+                    corporis eos officia incidunt, 
+                  </p>
+                 </div>
+                <div class="wraper-data-portfolio">
+                  <h2 class="portfolio-title">Editio Limited Edition</h2>
+                  <p class="portfolio-text">Design</p>
+                </div>
+              </a>
+             </li>
+             <li class="portfolio-item">
+              <a class="portfolio-item-link">
+                <div class="portfolio-wrapper-img">
+                  <picture>
+            <source src="" srcset="./images/desktop/portfolio-card-set/lab-370/lab-370.jpg 1x, ./images/desktop/portfolio-card-set/lab-370/lab-370@2x.jpg 2x" 
+            media="(min-width: 1200px)"/>
+            <source srcset="./images/tablet/portfolio-card-set/lab-354/lab-354.jpg 1x, ./images/tablet/portfolio-card-set/lab-354/lab-354@2x.jpg 2x" 
+            media="(min-width: 768px)"/>
+            <source srcset="./images/mobile/portfolio-card-set/lab-450/lab-450.jpg 1x, ./images/mobile/portfolio-card-set/lab-450/lab-450@2x.jpg 2x" 
+            media="(max-width: 767px)"/>
+
+        <img src="./images/mobile/portfolio-card-set/lab-450/lab-450.jpg" alt="Проект LAB" width="">
+</picture>
+                  
+                  <p class="portfolio-overlay">
+                     Lorem ipsum dolor sit, amet 
+                     consectetur adipisicing elit. 
+                     Odio iste voluptatum aliquid, 
+                     molestias temporibus autem quasi 
+                     corporis eos officia incidunt, 
+                   </p>
+                 </div>
+                <div class="wraper-data-portfolio">
+                  <h2 class="portfolio-title">Progect LAB</h2>
+                  <p class="portfolio-text">Marketing</p>
+                </div>
+              </li>
+            </a>
+         </ul>
+       </section>
+       <footer class="footer">
+        <div class="container container-footer">
+          <div class="footer-wrapper">
+            <div class="addres">
+              <a class="footer-logo link" href="">WebStudio</a>
+              <ul class="footer-list-contact list">
+                <li class="footer-list-contact__item">
+                  <a
+                    class="footer-list-contact__link addres link"
+                    href="https://goo.gl/maps/uvQcDVKG3ANf1RED6"
+                    target="_blank"
+                    rev="noopener noreferrer"
+                    >г. Киев, пр-т Леси Украинки, 26</a
+                  >
+                </li>
+                <li class="footer-list-contact__item">
+                  <a
+                    class="footer-list-contact__link link"
+                    href="mailto:info@devstudio.com"
+                  >
+                    info@devstudio.com</a
+                  >
+                </li>
+                <li class="footer-list-contact__item">
+                  <a
+                    class="footer-list-contact__link link"
+                    href="tel:+380961111111"
+                  >
+                    +38-096-111-11-11</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-social-list">
+              <h3 class="footer-social-list-title">join in</h3>
+              <ul class="media-list list">
+                <li class="media-list__item">
+                  <a href="" class="media-list__link footer-social-link">
+                    <svg
+                      class="media-list__icon footer-social-icon"
+                      width="20px"
+                      height="20px"
+                    >
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="media-list__item">
+                  <a href="" class="media-list__link footer-social-link">
+                    <svg
+                      class="media-list__icon footer-social-icon"
+                      width="20px"
+                      height="20px"
+                    >
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="media-list__item">
+                  <a href="" class="media-list__link footer-social-link">
+                    <svg
+                      class="media-list__icon footer-social-icon"
+                      width="20px"
+                      height="20px"
+                    >
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="media-list__item">
+                  <a href="" class="media-list__link footer-social-link">
+                    <svg
+                      class="media-list__icon footer-social-icon"
+                      width="20px"
+                      height="20px"
+                    >
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            </div>
+            <div class="footer-form-wrapper">
+              <h3 class="footer-form-title">Subscribe to the newsletter</h3>
+              <form class="footer-form">
+                <input
+                  class="footer-form-input"
+                  type="email"
+                  name="footer_email"
+                  placeholder="E-mail"
+                  required
+                />
+                <button type="submit" class="button footer-form-button">
+                  Sign up<svg
+                    class="subscribe-icon-send"
+                    width="24"
+                    height="24"
+                  >
+                    <use href="./images/sprite.svg#icon-send"></use>
+                  </svg>
+                </button>
+              </form>
+            
+          </div>
+        </div>
+      </footer>
+      <script src="./js/mobile-menu.js"></script>
+  </body>
+</html> 
+
+
+

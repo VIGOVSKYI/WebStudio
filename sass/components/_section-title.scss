@@ -1,0 +1,9 @@
+.section-title {
+  font-family: "Roboto";
+  @include font($fs:36px, $lh:42px);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+

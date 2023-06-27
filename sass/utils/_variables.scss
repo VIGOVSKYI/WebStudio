@@ -1,0 +1,17 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #757575;
+}
+
+:root {
+  --brand-color: #2196f3;
+  //   var(--brand-color)
+  --hover-button-color: #188ce8;
+  // var(--hover-button-color)
+  --text-content-color: #ffffff;
+  // var(--text-content-color)
+  --title-color: #212121;
+  //   var(--title-color)
+  --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  //   var(--transition-dur-and-func)
+}
