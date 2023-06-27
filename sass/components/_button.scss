@@ -12,6 +12,7 @@
   margin-left: auto;
   margin-right: auto;
   outline: none;
+  overflow: hidden;
   border: none;
   transition: background var(--transition-dur-and-func);
   &:hover,
